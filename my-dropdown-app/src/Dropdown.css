@@ -1,0 +1,28 @@
+.label {
+    cursor: pointer;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content 1rem;
+    width: max-content;
+}
+
+.content-container {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-gap: 0.5rem;
+    padding: 0.5rem;
+    width: max-content;
+    cursor: pointer;
+
+    position: absolute;
+    background: antiquewhite;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 99999;
+    left: 2rem;
+}
+
+svg {
+    width: 12px;
+    height: 12px;
+}
