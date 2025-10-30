@@ -1,4 +1,5 @@
 # simple-dropdown
+npm install my-dropdown-app
 Implemented a reusable dropdown component using React
 
 active = false,
